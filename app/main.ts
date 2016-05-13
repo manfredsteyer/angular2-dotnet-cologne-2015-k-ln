@@ -1,10 +1,10 @@
 import {bootstrap}    from '@angular/platform-browser-dynamic';
-import {AppComponent} from './app.component';
+import {FlugSuchen} from './flug-suchen.component';
 import {HTTP_PROVIDERS} from '@angular/http';
 import 'rxjs/add/operator/map';
 
-var providers = [
+var providers = [ // DI-Config
   HTTP_PROVIDERS  
 ];
 
-bootstrap(AppComponent, providers);
+bootstrap(FlugSuchen, providers);
